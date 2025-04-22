@@ -1,0 +1,3 @@
+enum EnumRemoteError {
+  badRequest, unknown
+}

@@ -1,0 +1,20 @@
+query GetMovies {
+  movies {
+    elementId,
+    identity,
+    labels,
+    actors {
+      name,
+      born
+    }
+    directors {
+     name,
+     born 
+    }
+    properties {
+      title,
+      tagline,
+      released
+    }
+  }
+}
