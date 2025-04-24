@@ -36,7 +36,7 @@ class _HomeState extends State<Home> {
 
               return Column(
                 children: [
-                  Image.asset('assets/Logo Azul.png', width: MediaQuery.of(context).size.width * 0.5,), 
+                  Image.asset('assets/logo.png', width: MediaQuery.of(context).size.width * 0.5,), 
                   const Text("MoviesJG", style: TextStyle(
                     fontSize: 30,
                     color: Color(0xFF212322),
@@ -62,7 +62,7 @@ class _HomeState extends State<Home> {
                               borderRadius: BorderRadius.circular(12),
                             ),
                             margin: const EdgeInsets.symmetric(
-                                vertical: 8, horizontal: 16),
+                                vertical: 8, horizontal: 24),
                             child: ListTile(
                               title: Row(
                                 children: [
